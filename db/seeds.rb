@@ -24,4 +24,12 @@ puts "Creating roles..."
 # ***********************************************************
 # Create Roles Here
 
+Role.create(character_name: "Lindsay Lohan", Salary: 2_000_000, movie_id: mean_girls.id, actor.id: lindsay_lohan.id)
+Role.create(character_name: "Emma Bunton", Salary: 5_000_000,  movie_id: spice_world.id, actor.id: baby_spice.id)
+Role.create(character_name: "Melanie Brown", Salary: 6_000_000, movie_id: spice_world.id, actor.id: scary_spice.id)
+Role.create(character_name: "Victoria Addams", Salary: 3_000_000, movie_id: spice_world.id, actor.id: posh_spice.id)
+Role.create(character_name: "Melanie Chisholm", Salary: 8_000_000, movie_id: spice_world.id, actor.id: sporty_spice.id)
+Role.create(character_name: "Tina Fey", Salary: 11_000_000, movie_id: mean_girls.id, actor.id: tina_fey.id)
+Role.create(character_name: "Geri Halliwell", Salary: 3_000_000, movie_id: spice_world.id, actor.id: ginger_spice.id)
+
 puts "Seeding done!"
